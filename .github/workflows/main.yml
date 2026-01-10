@@ -2,23 +2,22 @@ name: Run Minibot PHP
 
 on:
   schedule:
-    - cron: '*/30 * * * *' # Menjalankan script setiap 30 menit
-  workflow_dispatch:      # Memungkinkan menjalankan secara manual
+    - cron: '*/30 * * * *' # Menjalankan otomatis setiap 30 menit
+  workflow_dispatch:      # Memungkinkan Anda menjalankan manual kapan saja
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Setup PHP
-      uses: shivammathur/setup-php@v2
-      with:
-        php-version: '8.1'
-        extensions: curl, json
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.1'
+          extensions: curl, json
 
-    - name: Run Script
-      run: php minibot.php
-      
+      - name: Run Script
+        run: php minibot.php
