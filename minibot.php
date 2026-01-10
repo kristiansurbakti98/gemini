@@ -69,7 +69,7 @@ if (isset($json["token"])) {
         "authorization: Bearer " . $token,
         "x-telegram-init-data: " . $query,
         "content-type: application/json",
-        "user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36",
+        "user-agent: Mozilla/5.0 (Linux; Android 12; K) AppleWebKit/537.36",
         "origin: https://gemifaucet-frontend.vercel.app",
         "referer: https://gemifaucet-frontend.vercel.app/"
     ];
