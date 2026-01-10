@@ -1,8 +1,8 @@
-//name: Run Minibot PHP
+name: Run Minibot PHP
 
 on:
   schedule:
-//    - cron: '*/30 * * * *' # Menjalankan script setiap 30 menit
+    - cron: '*/30 * * * *' # Menjalankan script setiap 30 menit
   workflow_dispatch:      # Memungkinkan menjalankan secara manual
 
 jobs:
