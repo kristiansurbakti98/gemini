@@ -112,8 +112,7 @@ function timer($seconds, $prefix = "[!] please wait") {
 }
 
 clear();
-$query = "user=%7B%22id%22%3A6943141614%2C%22first_name%22%3A%22.%22%2C%22last_name%22%3A%22%22%2C%22username%22%3A%22taksrlamanya%22%2C%22language_code%22%3A%22id%22%2C%22allows_write_to_pm%22%3Atrue%2C%22photo_url%22%3A%22https%3A%5C%2F%5C%2Ft.me%5C%2Fi%5C%2Fuserpic%5C%2F320%5C%2FIpkB25hdzCGgDMPwnpRWwWbhRxkORXm_JwltMVcrrrfyV6X7PYz9y70fHgBjKtii.svg%22%7D&chat_instance=-8601949613310626623&chat_type=sender&auth_date=1767205626&signature=3ZZ_2icNsraEnhjYxRJlFgc3fCOjmpx_GsZ4O8Ufi6wzwWMkN_9mLf-N4_U2EeXF4iFA3p92RHs2Gqf1JS7lCg&hash=1d1f2a818d1c52996a477ddc5468051581c5c50a33645f4d01ab022b622e459a";
-
+$query = "user=%7B%22id%22%3A6943141614%2C%22first_name%22%3A%22.%22%2C%22last_name%22%3A%22%22%2C%22username%22%3A%22taksrlamanya%22%2C%22language_code%22%3A%22id%22%2C%22allows_write_to_pm%22%3Atrue%2C%22photo_url%22%3A%22https%3A%5C%2F%5C%2Ft.me%5C%2Fi%5C%2Fuserpic%5C%2F320%5C%2FIpkB25hdzCGgDMPwnpRWwWbhRxkORXm_JwltMVcrrrfyV6X7PYz9y70fHgBjKtii.svg%22%7D&chat_instance=-6468674688081907922&chat_type=channel&auth_date=1768053398&signature=PIo9rOTEbRNzXn63MFRRe0P9n6rQOasgSVT3xSL2TTiA9QDSdwC3suP0BFniNjgPeKdpHwxPl7gJ1ddbCuVnDQ&hash=d960186c3629a47e649a354f49bcbca4e16f5a9e3bc4bfef62966b889105fd7b";
 
 $a = [
 	"host: gemifaucet-backend-production.up.railway.app",
